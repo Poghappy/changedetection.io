@@ -132,3 +132,4 @@ pre_commit >= 4.2.0
 
 # For events between checking and socketio updates
 blinker
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
