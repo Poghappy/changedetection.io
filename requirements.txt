@@ -64,7 +64,7 @@ selenium~=4.31.0
 
 # https://github.com/pallets/werkzeug/issues/2985
 # Maybe related to pytest?
-werkzeug==3.0.6
+werkzeug==3.1.5
 
 # Templating, so far just in the URLs but in the future can be for the notifications also
 jinja2~=3.1
@@ -132,3 +132,4 @@ pre_commit >= 4.2.0
 
 # For events between checking and socketio updates
 blinker
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
